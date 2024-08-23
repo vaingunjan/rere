@@ -1,0 +1,375 @@
+:root{--pink:#e85393}
+*{
+  margin:0; padding:0;
+  box-sizing:border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline:none; border:none;
+  text-decoration:none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+html{
+  font-size:62.5%;
+  scroll-behavior:smooth;
+  scroll-padding-top:6rem;
+  overflow-x:hidden;
+ 
+}
+
+
+
+
+
+.latest {
+  align-items: center;
+  min-height: 100vh;
+ background: url(https://w0.peakpx.com/wallpaper/981/124/HD-wallpaper-attack-on-titan-beach-attack-on-titan-anime.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+}
+
+
+.latest .column {
+  flex: 50%;
+}
+.latest .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.latest .heading{
+  text-align: center;
+  font-size:5rem; 
+  margin-top:10rem;
+}
+
+.latest .heading span{
+  color:var(--pink);
+}
+
+
+
+.latest .image-container {
+  flex: 40rem;
+  position: relative;
+}
+
+.latest .image-container img {
+  max-width: 100%; 
+  max-height: 100%; 
+  border: .5rem solid #fff;
+
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+.latest .column .image-container {
+  max-width: 100%;
+  height: 30rem; 
+  overflow: hidden;
+  position: relative;
+}
+
+.latest .column .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.latest .image-container h3 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); 
+  font-size: 1rem; 
+  color: #333;
+  background: #fff;
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+
+.latest .content{
+  flex:40rem;
+}
+
+.latest .content h3{
+  font-size:20px;
+  color:#333;
+}
+
+.latest .content p{
+  font-size: 1.5rem;
+  color:#999;
+  padding: .5rem 0;
+  padding-top: 1rem;
+  line-height:1.5;
+}
+.button{
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background:#333;
+  color:white;
+  padding:.9rem  3.5rem;
+  cursor: ponter;
+  font-size: 1.7rem;
+}
+.button:hover{
+  background:var(--pink)
+}
+
+
+
+
+
+
+section{
+  padding: 2rem 9%;
+}
+
+header{
+  position: fixed;
+  top:0; left:0; right:0;
+  background:#fff;
+  padding:2rem 9%;
+  display: flex;
+  align-item:center;
+  justify-content: space-between;
+  z-index:1000;
+  box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+background: url('https://media.tenor.com/AmV10wbyXxsAAAAd/attack-on-titan-season4final.gif');
+  
+}
+
+header .logo{
+  font-size:3rem;
+  color:#333;
+  font-weight: bolder;
+  
+}
+header .logo span{
+  color:var(--pink);
+  
+}
+header .navbar a{
+  font-size:2rem;
+  padding:0 1.5 rem;
+  color: #666;
+margin-right:2rem;
+}
+header .navbar a:hover{ 
+color:var(--pink);}
+
+
+header .icons a{
+  font-size: 2.5rem;
+  color:#333;
+  margin-left: 1.5rem;
+}
+header .icons a:hover{
+  color:var(--pink);
+  }
+header #toggler{
+  display:none;
+ 
+} 
+header .fa-bars{
+  font-size:3rem;
+  color:#333;
+  border-radius:.5rem;
+  padding:.5rem 1.5rem;
+  cursor: pointer;
+  border: 1rem solid rgba(0,0,0,.3);
+  display:none;
+}
+
+
+
+
+
+.characters .charac{
+  text-align: center;
+  font-size:2rem; 
+margin-top: 45px;
+}
+
+.characters .charac span{
+  color:var(--pink);
+}
+
+.characters{
+background:url('https://i.pinimg.com/564x/86/1b/2f/861b2fa09ef7c8af7c7be082097d065a.jpg') no-repeat ;
+background-size: cover;
+  display:flex;
+  flex-wrap:wrap;
+  gap:1.5rem;
+  padding-top:5rem;
+  padding-bottom: 5rem;
+}
+
+.characters .icons{
+  background:#fff;
+  border:1em solid rgba(0,0,0,.1);
+  padding:2rem;
+  display:flex;
+  align-items:center;
+  flex: 1 1 25em;
+  
+}
+.characters .icons img{
+  height:5rem;
+  margin-right:2em;
+  
+}
+.characters .icons h3{
+  color: #333;
+  padding-bottom:.5em;
+  font size:1.5em;
+}
+.characters .icons span{
+  color: #555;
+  padding-bottom:.5em;
+  font size:1.5em;
+}
+
+
+  .poll {
+      background: url('https://i.pinimg.com/564x/fb/cd/79/fbcd7957561b386b4255b9b85f98f047.jpg') no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 90vh;
+    }
+
+    .poll h1 {
+      text-align: center;
+      font-size: 2rem;
+      color: var(--pink);
+      margin-top: 20px;
+    }
+
+    .poll-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      margin-top: 20px;
+    }
+
+    .poll label {
+      margin: 10px 0;
+      font-size: 1.5rem;
+    }
+
+    .poll input[type="radio"] {
+      margin-right: 10px;
+    }
+
+   .poll button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1.7rem;
+      cursor: pointer;
+      background: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .poll button:hover {
+      background: var(--pink);
+    }
+
+
+.contact .heading{
+color:black;
+  text-align: center;
+  font-size:5rem; 
+  margin-top:8rem;
+}
+
+.contact .heading span{
+  color:var(--pink);
+}
+
+
+.contact .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items:center ;
+  }
+.contact .row form{
+  flex: 1 1 40rem;
+  padding:2rem 2.5rem;
+  box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+  border: .1rem solid rgba(0,0,0,.1);
+  background:#fff;
+  border-radius: .5rem;
+  flex-direction: column;
+  }
+
+  .contact .row .image{
+    flex: 40rem;
+  }
+  .contact .row .image img{
+    width: 600px;
+    height:290px;
+  }
+  .contact .row form .box{
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+    border: .1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin: .7rem 0;
+      }
+       .contact .row form .box:focus{
+         border-color: var(--pink);
+                }
+                 .contact .row form textarea{
+                   height:15rem ;
+                   resize: none;
+                 }
+
+.footer .box-contain{
+  display: flex;
+  flex-wrap:wrap;
+  gap: 2.5rem;
+
+  }
+.footer .box-contain .box{
+  flex:25rem;
+}
+.footer .box-contain .box h3{
+  color: #333;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+.footer .box-contain .box a{
+ display: block;
+ color: #666;
+ font-size: 1.5rem;
+ padding: 1rem 0;
+
+}
+.footer .box-contain .box a:hover{
+  color:var(--pink);
+  text-decoration: underline;
+}
+
